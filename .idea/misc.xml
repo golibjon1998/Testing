@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Golibjon/AndroidStudioProjects/Testing/app/src/main/res/drawable/currency.xml" value="0.3065" />
         <entry key="..\:/Users/Golibjon/AndroidStudioProjects/Testing/app/src/main/res/drawable/ic_baseline_wechat_24.xml" value="0.3065" />
+        <entry key="..\:/Users/Golibjon/AndroidStudioProjects/Testing/app/src/main/res/drawable/notification_bac.xml" value="0.3065" />
+        <entry key="..\:/Users/Golibjon/AndroidStudioProjects/Testing/app/src/main/res/drawable/notification_count_bac.xml" value="0.3065" />
         <entry key="..\:/Users/Golibjon/AndroidStudioProjects/Testing/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Golibjon/AndroidStudioProjects/Testing/app/src/main/res/menu/bottom_menu.xml" value="0.36666666666666664" />
       </map>
