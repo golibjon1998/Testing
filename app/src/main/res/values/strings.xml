@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Testing</string>
+    <string name="home">Asosiy</string>
+    <string name="otkazma">O\'tkazma</string>
+    <string name="tolov">To\'lov</string>
+    <string name="chat">Chat</string>
+    <string name="menyu">Menyu</string>
+</resources>
