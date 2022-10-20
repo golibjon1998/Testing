@@ -1,4 +1,4 @@
-package com.example.testing
+package com.example.testing.model
 
 data class FastModel(
     val title: String,

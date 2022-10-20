@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.testing.FastModel
+import com.example.testing.model.FastModel
 import com.example.testing.R
 import kotlinx.android.synthetic.main.fast_item.view.*
 
