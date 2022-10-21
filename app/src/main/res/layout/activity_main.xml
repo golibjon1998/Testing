@@ -77,11 +77,14 @@
         app:layout_constraintBottom_toTopOf="@id/bottom_nav"
         android:layout_width="match_parent"
         android:layout_height="0dp">
-        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+
+        <com.nabilmh.lottieswiperefreshlayout.LottieSwipeRefreshLayout
             android:id="@+id/swipeRefreshLayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            app:indicator_overlay="false"
             android:background="@color/purple_200"
+            app:lottie_rawRes="@raw/progress"
+            android:layout_height="match_parent"
             app:layout_constraintTop_toBottomOf="@id/appBar">
 
             <androidx.core.widget.NestedScrollView
@@ -245,7 +248,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="All"
-                                    android:textColor="#FF6D00"
+                                    android:textColor="#FF8A02"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
                             </LinearLayout>
@@ -332,7 +335,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="All"
-                                    android:textColor="#FF6D00"
+                                    android:textColor="#FF8A02"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
                             </LinearLayout>
@@ -396,7 +399,7 @@
             </androidx.core.widget.NestedScrollView>
 
 
-        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        </com.nabilmh.lottieswiperefreshlayout.LottieSwipeRefreshLayout>
 
     </FrameLayout>
 

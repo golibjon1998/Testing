@@ -1,9 +1,9 @@
 package com.example.testing.adapter
 
-import android.content.res.ColorStateList
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.example.testing.R
 import com.example.testing.model.LifeModel
@@ -26,7 +26,7 @@ class LifeHackAdapter(var lifeHackList: MutableList<LifeModel>) :
         val item = lifeHackList[position]
 
         holder.apply {
-            background.backgroundTintList = ColorStateList.valueOf(item.image)
+            background.setBackgroundColor(ContextCompat.getColor(itemView.context, item.back))
             image.setImageResource(item.image)
             name.text = item.name
         }

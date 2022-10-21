@@ -2,6 +2,7 @@ package com.example.testing
 
 import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
@@ -67,6 +68,15 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
+
+        swipeRefreshLayout.setOnRefreshListener {
+            val handler = Handler()
+
+            handler.postDelayed({
+                swipeRefreshLayout.isRefreshing = false
+            }, 2000)
+
+        }
     }
 
     private fun manageShowBalance() {
