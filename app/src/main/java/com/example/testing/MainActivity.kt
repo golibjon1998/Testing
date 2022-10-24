@@ -53,6 +53,10 @@ class MainActivity : AppCompatActivity() {
             scanCardClickListener()
         }
 
+        nfcCard.setOnClickListener {
+            startActivity(Intent(this, NfcActivity::class.java))
+        }
+
         onBackPressedDispatcher.addCallback(object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
                 if (backPressedTime + 3000 > System.currentTimeMillis()) {
